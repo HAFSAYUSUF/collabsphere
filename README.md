@@ -86,9 +86,11 @@ npm run dev
 cd backend
 node server.js
 #SCREEN SHOT##
-Project-![Image](https://github.com/user-attachments/assets/5735174d-4189-46ed-aa65-7bb01e030948)
+![image](https://github.com/user-attachments/assets/5735174d-4189-46ed-aa65-7bb01e030948)
+
 
 ### Homepage View
+![image]https://github.com/HAFSAYUSUF/collabsphere/blob/main/github2.jpg?raw=true
 
 
 
