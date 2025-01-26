@@ -88,13 +88,7 @@ node server.js
 #SCREEN SHOT## Screenshots
 
 ### Homepage View
-![Homepage View](https://github.com/HAFSAYUSUF/collabsphere/blob/7b73dbeba4a380f64f451cec385c217a654289c0/github%201.jpg)
 
-*Figure: The homepage of Collabsphere showcasing its clean and intuitive design.*
-
-![image](https://github.com/user-attachments/assets/3387715e-8421-4edd-bd43-8f7cf495f602)
-![image](https://github.com/user-attachments/assets/4981af58-38fb-4962-a44c-e179e0469704)
-![image](https://github.com/user-attachments/assets/2cd50871-cf42-4185-b3d4-41d3d06ee41b)
 
 
 
