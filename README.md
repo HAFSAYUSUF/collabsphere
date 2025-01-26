@@ -10,7 +10,7 @@ Currently, two official plugins are available:
 
 ## Basic Details
 
-*Team Name:* Collabsphere Team
+*Team Name:* Midnight Coders
 
 *Team Members*
 *   Member 1: HAFSA Y- NSS COLLEGE OF ENGINEERING PALAKKAD
