@@ -85,7 +85,8 @@ npm run dev
 # In the backend folder, to run backend
 cd backend
 node server.js
-#SCREEN SHOT## Screenshots
+#SCREEN SHOT##
+![Alt Text](images/github 1.png)
 
 ### Homepage View
 
