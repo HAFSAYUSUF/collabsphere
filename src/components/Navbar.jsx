@@ -1,0 +1,71 @@
+import React from 'react';
+import { NavLink, useNavigate } from 'react-router-dom';
+import styled from 'styled-components';
+
+const Nav = styled.nav`
+  background: transparent; /* Set background to transparent */
+padding: 1rem 0;
+display: flex;
+justify-content: space-between;
+align-items: center;
+`;
+
+const NavList = styled.ul`
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+gap: 20px;
+`;
+
+const NavItem = styled.li``;
+
+const NavLinkStyled = styled(NavLink)`
+text-decoration: none;
+color: white;
+font-weight: bold;
+
+&.active {
+    border-bottom: 2px solid white;
+}
+`;
+
+const LogoutButton = styled.button`
+background: transparent;
+    color: white;
+    padding: 10px 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:hover {
+        background: #444;
+    }
+`
+
+
+const Navbar = () => {
+    const navigate = useNavigate();
+    const handleLogout = () => {
+        localStorage.removeItem('authToken');
+        navigate('/login');
+    };
+
+
+    return (
+        <Nav>
+        <NavList>
+            <NavItem><NavLinkStyled to="/" exact="true" >Home</NavLinkStyled></NavItem>
+            <NavItem><NavLinkStyled to="/projects">Projects</NavLinkStyled></NavItem>
+            <NavItem><NavLinkStyled to="/hackathons" >Hackathons</NavLinkStyled></NavItem>
+            <NavItem><NavLinkStyled to="/donations">Donations</NavLinkStyled></NavItem>
+            <NavItem><NavLinkStyled to="/travel">Travel</NavLinkStyled></NavItem>
+            <NavItem><NavLinkStyled to="/vlogging">Vlogging</NavLinkStyled></NavItem>
+            </NavList>
+            <LogoutButton onClick={handleLogout}>Logout</LogoutButton>
+        </Nav>
+    );
+};
+
+export default Navbar;
