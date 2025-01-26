@@ -90,7 +90,7 @@ node server.js
 
 
 ### Homepage View
-![image](https://github.com/HAFSAYUSUF/collabsphere/blob/main/github2.jpg?raw=true)
+![Image Alt](https://github.com/HAFSAYUSUF/collabsphere/blob/e75912b23941dfd159450d983484f72beb7e2c6f/github3.jpg)
 
 
 
