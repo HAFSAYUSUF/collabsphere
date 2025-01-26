@@ -86,7 +86,7 @@ npm run dev
 cd backend
 node server.js
 #SCREEN SHOT##
-![Alt Text](images/github 1.png)
+Project-![Image](https://github.com/user-attachments/assets/5735174d-4189-46ed-aa65-7bb01e030948)
 
 ### Homepage View
 
